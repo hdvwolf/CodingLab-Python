@@ -1,0 +1,634 @@
+{
+    "entry": [
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/ad76e746-0fee-4a63-a071-9cf4decf4b31",
+            "resource": {
+                "address": [
+                    {
+                        "city": "Los Angeles",
+                        "country": "US",
+                        "extension": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "latitude",
+                                        "valueDecimal": 34.09452081488854
+                                    },
+                                    {
+                                        "url": "longitude",
+                                        "valueDecimal": -118.15002001276231
+                                    }
+                                ],
+                                "url": "http://hl7.org/fhir/StructureDefinition/geolocation"
+                            }
+                        ],
+                        "line": [
+                            "477 Abbott Terrace Apt 10"
+                        ],
+                        "state": "CA"
+                    }
+                ],
+                "birthDate": "1988-09-01",
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "code": "en-US",
+                                    "display": "English",
+                                    "system": "urn:ietf:bcp:47"
+                                }
+                            ],
+                            "text": "English"
+                        }
+                    }
+                ],
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "url": "ombCategory",
+                                "valueCoding": {
+                                    "code": "2106-3",
+                                    "display": "White",
+                                    "system": "urn:oid:2.16.840.1.113883.6.238"
+                                }
+                            },
+                            {
+                                "url": "text",
+                                "valueString": "White"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "ombCategory",
+                                "valueCoding": {
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino",
+                                    "system": "urn:oid:2.16.840.1.113883.6.238"
+                                }
+                            },
+                            {
+                                "url": "text",
+                                "valueString": "Not Hispanic or Latino"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+                        "valueString": "Halley419 Kihn564"
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+                        "valueCode": "F"
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+                        "valueAddress": {
+                            "city": "Los Angeles",
+                            "country": "US",
+                            "state": "California"
+                        }
+                    },
+                    {
+                        "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+                        "valueDecimal": 0
+                    },
+                    {
+                        "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+                        "valueDecimal": 31
+                    }
+                ],
+                "gender": "female",
+                "id": "ad76e746-0fee-4a63-a071-9cf4decf4b31",
+                "identifier": [
+                    {
+                        "system": "https://github.com/synthetichealth/synthea",
+                        "value": "656490c9-a69b-4688-a0e2-62edb706b7ec"
+                    },
+                    {
+                        "system": "http://hospital.smarthealthit.org",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "MR",
+                                    "display": "Medical Record Number",
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                                }
+                            ],
+                            "text": "Medical Record Number"
+                        },
+                        "value": "656490c9-a69b-4688-a0e2-62edb706b7ec"
+                    },
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-ssn",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "SS",
+                                    "display": "Social Security Number",
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                                }
+                            ],
+                            "text": "Social Security Number"
+                        },
+                        "value": "999-14-4595"
+                    },
+                    {
+                        "system": "urn:oid:2.16.840.1.113883.4.3.25",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "DL",
+                                    "display": "Driver's License",
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                                }
+                            ],
+                            "text": "Driver's License"
+                        },
+                        "value": "S99939311"
+                    },
+                    {
+                        "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "PPN",
+                                    "display": "Passport Number",
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                                }
+                            ],
+                            "text": "Passport Number"
+                        },
+                        "value": "X10594522X"
+                    }
+                ],
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "code": "M",
+                            "display": "M",
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+                        }
+                    ],
+                    "text": "M"
+                },
+                "meta": {
+                    "lastUpdated": "2020-03-24T19:56:57.504+00:00",
+                    "profile": [
+                        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                    ],
+                    "source": "#ERYlfXERRsQPLOZB",
+                    "tag": [
+                        {
+                            "code": "Covid19 synthetic population from Synthea",
+                            "system": "https://smarthealthit.org/tags"
+                        }
+                    ],
+                    "versionId": "1"
+                },
+                "multipleBirthBoolean": false,
+                "name": [
+                    {
+                        "family": "Hartmann983",
+                        "given": [
+                            "Elene949"
+                        ],
+                        "prefix": [
+                            "Mrs."
+                        ],
+                        "use": "official"
+                    },
+                    {
+                        "family": "McGlynn426",
+                        "given": [
+                            "Elene949"
+                        ],
+                        "prefix": [
+                            "Mrs."
+                        ],
+                        "use": "maiden"
+                    }
+                ],
+                "resourceType": "Patient",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "use": "home",
+                        "value": "555-391-1184"
+                    }
+                ],
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7ff8db58\n .   Person seed: -5056865670096276701  Population seed: 12345</div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217595",
+            "resource": {
+                "id": "1217595",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:14:00.525+00:00",
+                    "source": "#jGsS3izeNUbLzYap",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217596",
+            "resource": {
+                "id": "1217596",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:14:30.530+00:00",
+                    "source": "#tKKorbx0Sb8yC5C2",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217597",
+            "resource": {
+                "id": "1217597",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:15:00.515+00:00",
+                    "source": "#m82R7b8pz2c74mSY",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217598",
+            "resource": {
+                "id": "1217598",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:15:30.516+00:00",
+                    "source": "#hz2DW6KHioRVlUsX",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217599",
+            "resource": {
+                "id": "1217599",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:16:00.520+00:00",
+                    "source": "#ZVvnq6bf17UtoJ0O",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217600",
+            "resource": {
+                "id": "1217600",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:16:30.524+00:00",
+                    "source": "#vRc7YUit9KEQOlWG",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217601",
+            "resource": {
+                "id": "1217601",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:17:00.508+00:00",
+                    "source": "#s3Ta8eL5tiGrwK8x",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217602",
+            "resource": {
+                "id": "1217602",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:17:30.525+00:00",
+                    "source": "#tSFxyQUJRa6R1d8Y",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217603",
+            "resource": {
+                "id": "1217603",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:18:00.518+00:00",
+                    "source": "#rmDlv7Fy8YzKb1fL",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217604",
+            "resource": {
+                "id": "1217604",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:18:30.511+00:00",
+                    "source": "#KN0zXOcLwdUrU3VG",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217607",
+            "resource": {
+                "id": "1217607",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:20:00.511+00:00",
+                    "source": "#RmbipbXZZL5LxU7R",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217608",
+            "resource": {
+                "id": "1217608",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:20:30.523+00:00",
+                    "source": "#yek84hM50sq4F2ts",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217614",
+            "resource": {
+                "id": "1217614",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:23:00.532+00:00",
+                    "source": "#l7nJl3k3J4Pu8fXk",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1217616",
+            "resource": {
+                "id": "1217616",
+                "meta": {
+                    "lastUpdated": "2020-06-17T13:23:30.521+00:00",
+                    "source": "#QCl5JgvUhPB0NpXb",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1264492",
+            "resource": {
+                "birthDate": "1972-10-13",
+                "gender": "male",
+                "id": "1264492",
+                "meta": {
+                    "lastUpdated": "2020-06-22T22:23:57.067+00:00",
+                    "source": "#dDpGjB8O39dNRz22",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>13 October 1972</span></td></tr></tbody></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1264493",
+            "resource": {
+                "id": "1264493",
+                "meta": {
+                    "lastUpdated": "2020-06-22T22:23:58.928+00:00",
+                    "source": "#c2jrnwuERYzWK8Yb",
+                    "versionId": "1"
+                },
+                "name": [
+                    {
+                        "given": [
+                            "JONNY"
+                        ],
+                        "id": "GROUP3"
+                    }
+                ],
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">JONNY </div><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1264494",
+            "resource": {
+                "birthDate": "1972-10-13",
+                "gender": "male",
+                "id": "1264494",
+                "meta": {
+                    "lastUpdated": "2020-06-22T22:24:27.044+00:00",
+                    "source": "#Dd3OAOXJbPBdruVO",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>13 October 1972</span></td></tr></tbody></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1264495",
+            "resource": {
+                "id": "1264495",
+                "meta": {
+                    "lastUpdated": "2020-06-22T22:24:28.945+00:00",
+                    "source": "#lAe8rUDfIEXh5GvU",
+                    "versionId": "1"
+                },
+                "name": [
+                    {
+                        "given": [
+                            "JONNY"
+                        ],
+                        "id": "GROUP3"
+                    }
+                ],
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">JONNY </div><table class=\"hapiPropertyTable\"><tbody/></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1264496",
+            "resource": {
+                "birthDate": "1972-10-13",
+                "gender": "male",
+                "id": "1264496",
+                "meta": {
+                    "lastUpdated": "2020-06-22T22:24:57.053+00:00",
+                    "source": "#48fAdzMORhdoVn5z",
+                    "versionId": "1"
+                },
+                "resourceType": "Patient",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>13 October 1972</span></td></tr></tbody></table></div>",
+                    "status": "generated"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ],
+    "id": "ed211684-06e5-4d5f-b644-71696bf27824",
+    "link": [
+        {
+            "relation": "self",
+            "url": "http://hapi.fhir.org/baseR4/Patient/"
+        },
+        {
+            "relation": "next",
+            "url": "http://hapi.fhir.org/baseR4?_getpages=ed211684-06e5-4d5f-b644-71696bf27824&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+        }
+    ],
+    "meta": {
+        "lastUpdated": "2020-10-16T20:45:36.472+00:00"
+    },
+    "resourceType": "Bundle",
+    "type": "searchset"
+}

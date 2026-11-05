@@ -1,0 +1,36 @@
+{
+    "resourceType": "Patient",
+    "id": "1475248",
+    "meta": {
+        "versionId": "6",
+        "lastUpdated": "2020-09-21T12:44:38.650+00:00"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Harvac <b>INDIAN CANADIAN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>1820 Battlefield </span><br/><span>Ottawa </span></td></tr><tr><td>Date of birth</td><td><span>10 June 1985</span></td></tr></tbody></table></div>"
+    },
+    "name": [
+        {
+            "use": "official",
+            "text": "HDV",
+            "family": "Indian Canadian",
+            "given": [
+                "Harvac"
+            ]
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1985-06-10",
+    "address": [
+        {
+            "use": "home",
+            "type": "both",
+            "text": "1820 Battlefield road Ottawa Canada",
+            "line": [
+                "1820 Battlefield"
+            ],
+            "city": "Ottawa",
+            "postalCode": "12345"
+        }
+    ]
+}
